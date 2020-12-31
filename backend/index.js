@@ -2,6 +2,8 @@
 //The basic functionality of require is that it reads a 
 //JavaScript file, executes the file, and then proceeds 
 //to return the export object.
+
+var PORT =process.env.PORT || 3000;
 // IMPORT EXPRESS SERVER
 const express = require('express');
 //The express() syntax is the equivalent of saying new express(). 

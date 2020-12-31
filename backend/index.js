@@ -32,4 +32,4 @@ const employeeAPI = require('./controllers/employeeAPI_promise.js');
 app.use('/emp', employeeAPI);
 
 // START THE EXPRESS SERVER. 4500 is the PORT NUMBER
-app.listen(4500, () => console.log('EXPRESS Server Started at Port No: 4500'));
+app.listen(PORT, () => console.log('EXPRESS Server Started at Port No: 4500'));
